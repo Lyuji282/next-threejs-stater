@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  image: node
+  restart: always
+  stdin_open: true
+  volumes:
+    - `pwd`:/usr/src/app
+  ports:
+    - 3000:3000

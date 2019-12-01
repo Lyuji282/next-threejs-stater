@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout';
 import styled from '@emotion/styled';
-
 import Three from '../components/Three';
 
 const Home = ({
@@ -11,7 +10,8 @@ const Home = ({
     return (
         <Layout>
             <Container>
-                <Three/>
+                {/*<Three/>*/}
+                <div>wwwww</div>
             </Container>
         </Layout>)
 };

@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import styled from '@emotion/styled';
 import {Canvas, useFrame} from 'react-three-fiber';
 
+
 const Three = () => {
 
     const ref = useRef();
@@ -25,6 +26,7 @@ const Three = () => {
 };
 
 const Container = styled.main`
+
 `;
 
 const TextWrapper = styled.div`
